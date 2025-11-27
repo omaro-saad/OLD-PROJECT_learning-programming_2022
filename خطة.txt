@@ -1,0 +1,62 @@
+// Site Structure | هيكلية الموقع
+1- LP v.6 ( Learning Programming varsion.6 )
+[
+    {
+        -Login System
+    }
+
+    {
+        -landing-page
+        (
+                = Header
+                = Artical => Sections =>
+                <
+                    _HOME
+                    _About
+                    _Team
+                    _Courses
+            
+                    _more
+                        (
+                            _Ready To Use
+                            _LogOut
+                        )
+
+                    _Contact
+                >
+                = Footer
+        )
+    }
+
+    {
+        -Ready to use (اكواد جاهزه)
+    }
+]
+
+
+// Extensions used | ملحقات مستخدمة
++ jquery
++ font
++ icons
+
+// Languages ​​used | لغات مستخدمه
++= html
++= css
++= js
++= jquery
+
+
+/|\
+// Website building terms | شروط بناءالموقع
+[
+    {
+        _ Accuracy in action | الدقه في العمل
+        _ A period of time not exceeding one week | مدة زمنية لا تطل عن 14 يوم
+        _ Speed ​​in achievement | سرعة في الانجاز
+        _ Focus and attention | التركيز والانتباه ( متسرحش :)
+        _ If you encounter a problem, solve the problem and not skip it | في حال مواجهة مشكلة حل المشكله وعدم تخطيها
+    }
+]
+
+/* تاريخ الانشاء */
+// 3|6 \\

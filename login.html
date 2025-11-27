@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> LP v.6 | Sign up </title>
+    
+    <!-- css links -->
+    <link rel="stylesheet" href="assets/css/login.css"> 
+    <!--  -->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+
+</head>
+<body>
+
+    <header class="menu-close">
+        <nav class="menu"> 
+            <ul> 
+                <li><a href=""> HOME </a></li>
+                
+                <h2> Learning Programming </h2>
+                
+                <li><a href="register.html"> Sign Up </a></li>  
+            </ul>
+
+        </nav> 
+        <span class="close-btn"> <i class='bx bxs-chevron-down'></i> </span>
+    </header>
+
+
+    <section class="home">
+        <div class="overlay">
+
+            <div class="content">
+                
+                <form action="" novalidate>
+
+                    <h2 class="title"> Sign in </h2>
+                    
+                    <div class="field">
+                        <input type="text" name="username" id="username" onkeyup="user_check()" autocomplete="off" placeholder="Enter Username">
+                    </div>
+    
+                    <div class="field"> 
+                        <input type="password" name="username" id="password" onkeyup="pass_check()" autocomplete="off" placeholder="Enter Password">
+                    </div>
+    
+                    <div class="result"></div>
+    
+                    <button type="submit" class="sign-up" onclick="send()"> Sign in </button>
+    
+                    <p> Havent an account yet ?  <a href="register.html"> sign up </a> </p>
+    
+                    </form>
+        </div>
+    </section>
+
+
+
+
+    <!--  js // src :  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+
+
+</body>
+</html>
